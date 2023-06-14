@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component LANGUAGE_LEVEL="JDK_17" inheritJdk="true">
+	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
+	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
+		<excludeFolder url="file://$MODULE_DIR$/target"/>
+	</contentEntry>
+	<lib name="LGoodDatePicker-11.2.1.jar" scope="COMPILE">
+		<relative-module-cls project-related="jar://$PROJECT_DIR$/src/main/LGoodDatePicker-11.2.1.jar!/"/>
+	</lib>
+	<levels>
+		<level name="gson-2.10.1" value="project"/>
+		<level name="google.code.gson" value="project"/>
+		<level name="commons.codec" value="project"/>
+	</levels>
+</component>
